@@ -7,7 +7,7 @@ var pendingGoogleOptimiseABTestLoadDetails = null;
 const AdProviderPlaywire = "Playwire";
 const AdProviderGoogleH5Games = "GoogleH5Games";
 const AdProviderAdinplay = "AdinPlay";
-var displayAdProvider = AdProviderPlaywire;
+var displayAdProvider = AdProviderAdinplay;
 var videoAdProvider = AdProviderGoogleH5Games;
 
 var playwireRampInitialised = false;
