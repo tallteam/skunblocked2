@@ -17,7 +17,7 @@ if(typeof(Worker) !== "undefined")
     {
         const wasConsoleOpen = consoleOpen;
         consoleOpen = (Date.now() - checkTimestamp > checkTimeDelay);
-
+        
         if(consoleOpen && !wasConsoleOpen)
         {
             console.log("%cSTOP!", "color:red; font-style:heavy; font-size:75px; font-weight:900; text-shadow:2px 2px 0 rgb(0,0,0)");
